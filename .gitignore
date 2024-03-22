@@ -1,0 +1,35 @@
+# Environments
+.env
+.venv
+src/env/
+src/venv/
+
+# Byte-compiled / optimized / DLL files
+*__pycache__
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+src/build/
+src/dist/
+*.spec
+
+# logs
+src/logs/
+*.log
+
+# database:
+*.sqlite3
+*.sqlite3-journal
+*.db
+
+# other
+src/docs/
+*.zip
+*.exe
+*.psd
+*.pdf
+*.png
+
+# app
+/src/icon/
